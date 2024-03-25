@@ -1,4 +1,4 @@
-package stepdefinitions;
+package stepdefinitions.Homeworkes;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class SearchTask {
+public class HW01_Cucumber_Search {
     WebDriver driver;
     @Given("user goes to google page")
     public void user_goes_to_google_page() {

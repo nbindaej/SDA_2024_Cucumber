@@ -14,5 +14,3 @@ Feature: task 1
     When user searches for "cucumber"
     Then tests that the page title contains the word "cucumber"
     And closes the page
-
-
