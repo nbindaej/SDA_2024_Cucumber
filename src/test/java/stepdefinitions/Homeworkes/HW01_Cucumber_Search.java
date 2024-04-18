@@ -30,6 +30,8 @@ public class HW01_Cucumber_Search {
     }
     @Then("closes the page")
     public void closes_the_page() {
+        Assert.fail();
+
         driver.close();
     }
 }
