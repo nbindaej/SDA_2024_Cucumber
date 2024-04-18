@@ -32,7 +32,7 @@ public class DataTablesStepDef {
 
     }
     @Then("I should see String on the result")
-    public void i_should_see_string_on_the_result() {
+    public void i_should_see_string_on_the_result(String input) {
         // Write code here that turns the phrase above into concrete actions
 
     }
